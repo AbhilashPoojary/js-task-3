@@ -1,0 +1,148 @@
+body {
+  background-color: #eee;
+}
+.card-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 360px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+}
+.card.signup {
+  height: 545px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.form label {
+  font-weight: 700;
+  font-size: 14px;
+}
+.form input {
+  height: 45px;
+  border: 2px solid #eee;
+  transition: all 0.9s;
+}
+
+.form input:focus {
+  box-shadow: none;
+  border: 2px solid #2541b2;
+}
+
+.social-button {
+  height: 45px;
+  background-color: #2541b2;
+}
+
+.login-button {
+  margin-top: 15px;
+}
+
+.login-button button {
+  height: 45px;
+}
+.task-birthday .form {
+  width: 50%;
+}
+.task-birthday .card {
+  width: 30%;
+}
+
+/* ****************************************************************************************** */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+section.container.index {
+  text-align: center;
+}
+
+.content {
+  text-align: left;
+}
+.btn-primary,
+.btn-primary:focus,
+.btn-success,
+.btn-success:focus,
+.btn-danger,
+.btn-danger:focus {
+  box-shadow: none !important;
+  border: none;
+}
+/* ****************************************************************************************** */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+main.to-do {
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+main.to-do .card {
+  width: 100%;
+}
+main.to-do .item {
+  display: flex;
+  gap: 3px;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  line-height: 2rem;
+}
+main.to-do .item:last-child {
+  border-bottom: none;
+}
+main.to-do h1:first-child {
+  text-align: center;
+}
+.btn-primary,
+.btn-primary:focus,
+.delete-all,
+.delete-all:focus {
+  box-shadow: none !important;
+  border: none;
+}
+main.p-3.content {
+  min-height: calc(100vh - 18vh) !important;
+}
+.total-records {
+  padding: 5px 0;
+}
+.compled-records.card {
+  padding: 5px 0;
+}
+.input-highlight {
+  border: 2px solid #c20b0b;
+}
+label {
+  text-align: left;
+}
+.random-array {
+  width: 536px;
+  margin: 0 auto;
+  text-align: center;
+}
+.array-card {
+  width: 400px;
+  margin: 0 auto;
+}
